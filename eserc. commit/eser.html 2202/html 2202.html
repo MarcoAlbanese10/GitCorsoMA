@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script src="script2202.js"></script>
+
+    </head>
+    <body>
+    <form action="" method= "post"> 
+      cognome e nome<input type="text"  name="marco" onchange="return controllonomeecognome()"> 
+      <br>
+      sesso<input type="radio" value="M" name="sesso"> M  <input type="radio" value="F" name="sesso">F
+      <br>
+      ateneo<select name="ateneo" id=""  onchange="controlloateneo()">
+         <option value="nessuna"></option> 
+         <option value="uniroma1">uniroma1</option>
+         <option value="uniroma1">roma3</option>
+         <option value="uniroma1">sapienza</option>
+      </select>
+      <br>
+      CAP<input type="text" name="CAP" size="5" maxlength="5" value="" onchange="return controllocap()">
+      <br>
+      studente lavoratore<input type="checkbox" name="studente lavoratore">
+      <br>
+      descrizione<textarea name="descrizione" id="" cols="30" rows="10"></textarea>
+      <input type="submit" value="invia">
+      <input type="reset" value="reset">
+ 
+    </form>   
+    </body>
+</html>
