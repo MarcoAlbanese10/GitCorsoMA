@@ -12,7 +12,7 @@ public class bisestile {
      public static void main(String[] args) {
          
 	  System.out.print("Inserisci l'anno: ");    
-     int anno = 2022;
+     int anno = 2020;
             
     // Calcolo se anno è bisestile.
     boolean divisibilePer4   = (anno % 4 == 0);
